@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+float taban,yukseklik,alan;
+printf("taban degeri giriniz:\n");
+scanf("%f",&taban);
+printf("yukseklik degeri giriniz:\n");
+scanf("%f",&yukseklik);
+alan=(taban*yukseklik)/2.0;
+printf("alan:%f\n",alan);
+return 0;
+}
+bu sekilde yazdim
